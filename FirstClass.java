@@ -3,7 +3,7 @@ public class FirstClass {
 
 	// 7th table
 
-	static void table() {
+	static void table7() {
 
 		int n = 20;
 		for (int i = 1; i <= n; i++) {
@@ -13,9 +13,20 @@ public class FirstClass {
 
 	}
 
+	static void table8() {
+
+		int n = 20;
+		for (int i = 1; i <= n; i++) {
+
+			System.out.println(i + "x" + "8" + "=" + i*8);
+		}
+
+	}
+
 	public static void main(String[] args) {
 		
-		FirstClass.table();
+		FirstClass.table7();
+		FirstClass.table8();
 		
 	}
 	
